@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="en">
         <body className={ubuntu.className}>
-        <div className={"max-w-[1440px] m-auto mt-5 font-bold tracking-wide text-3xl text-black/80"}>TELEGRAM DASHBOARD</div>
+        <div className={"max-w-[1440px] m-auto mt-5 font-bold tracking-wide text-3xl text-center text-black/80"}>TELEGRAM DASHBOARD</div>
         <div className={"max-w-[1440px] m-auto border-[1px] mt-10 rounded-xl p-5"}>
             {children}
         </div>
